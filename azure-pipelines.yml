@@ -12,5 +12,5 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 
 - script: 
-  echo "Greeting! [{ buildConfiguration }]"
-  displayName: Greetings
+    echo "Greeting! [{ buildConfiguration }]"
+  displayName: 'greetings'
